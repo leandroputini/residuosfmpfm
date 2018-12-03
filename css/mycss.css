@@ -30,9 +30,10 @@
 }
 .menuexpanded hr{
 border: 1px solid white;
-width: 100%
 }
 .menu{
+    position: fixed;
+    width: 100%;
     background-color: green; 
     z-index: 1;
 }
@@ -40,7 +41,7 @@ hr{
     border: 1px solid green
 }
 .pic{
-    width: 95%;
+    width: 95%;    
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -49,4 +50,13 @@ hr{
 .esp{
     padding-left: 5px;
     padding-right: 5px;
+}
+.rel{
+    position: relative;
+}
+.fix{
+    position: fixed
+}
+.w100{
+    width: 100%;
 }
