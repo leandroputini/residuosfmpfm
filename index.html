@@ -3,12 +3,56 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Resíduos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mycss.css">
 </head>
 <body>
-    <h1>teste</h1>
+<div style="position: fixed;">
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4 menuexpanded">
+                <br>
+                <br>
+                <a href="index.html">Home</a>
+                <hr>
+                <a href="">Configurações</a>
+                <hr>
+                <a href="">Ajuda</a>
+                <hr>
+                <a href="pages/sobre.html">Sobre</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark menu" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col i">
+            <a href="pages/item1.html">
+                <img src="src/seringas.svg" class="pic" alt="">
+                <center><h5>Seringas e agulhas</h5>
+            </a>
+        </div>
+        <div class="col i">
+            <a href="pages/item2.html">
+                <img src="src/iii.png" class="img-fluid" alt="">
+                <center><h2>Item</h2>
+            </a>
+        </div>
+        <div class="col i">
+            <a href="pages/item3.html">
+                <img src="src/iii.png" class="img-fluid" alt="">
+                <center><h2>Item</h2>
+            </a>
+        </div>
+    </div>    
+</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
