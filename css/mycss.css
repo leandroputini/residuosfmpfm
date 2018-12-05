@@ -1,6 +1,6 @@
 *{
-    background-color: #343a40;
-    color: white;
+    background-color: #c6ffd0;
+    color: black;
 }
 .menuexpanded a{
     color: white;
@@ -20,13 +20,15 @@
 }
 .i a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .menuexpanded{
     position: fixed;
     height: 100%;
     background-color: darkgreen;
+    background-image: url(../src/tarja.png);
     z-index: 1;
+    background-size: 100% auto;
 }
 .menuexpanded hr{
 border: 1px solid white;
@@ -34,7 +36,7 @@ border: 1px solid white;
 .menu{
     position: fixed;
     width: 100%;
-    background-color: green; 
+    background-color: darkgreen; 
     z-index: 1;
 }
 hr{
