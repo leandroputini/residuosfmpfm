@@ -1,6 +1,11 @@
 *{
-    background-color: #c6ffd0;
+    /* background-color: #defce3; */
     color: black;
+}
+body{
+    background-image: url(../src/paper.svg);
+    background-size: auto 100%;
+    /* background-position-y: 3rem; */
 }
 .menuexpanded a{
     color: white;
@@ -11,9 +16,9 @@
     color: white;
     
 }
-.row .col{
+/* .row .col{
     padding: 1rem;
-}
+} */
 .i{
     padding-left: 5px;
     padding-right: 5px;
@@ -26,18 +31,23 @@
     position: fixed;
     height: 100%;
     background-color: darkgreen;
-    background-image: url(../src/tarja.png);
+    background-image: url(../src/paper.svg);
+    background-size: auto 100%;
     z-index: 1;
-    background-size: 100% auto;
+    margin-top: 49px; 
+    background-position: 0 -50px;
 }
 .menuexpanded hr{
-border: 1px solid white;
+    border: 1px solid white;
 }
 .menu{
     position: fixed;
     width: 100%;
-    background-color: darkgreen; 
+    background-color: darkgreen;
+    background-image: url(../src/paper.svg);
+    background-position: 0 0;
     z-index: 1;
+    height: 50px;
 }
 hr{
     border: 1px solid green
@@ -48,10 +58,6 @@ hr{
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-.esp{
-    padding-left: 5px;
-    padding-right: 5px;
 }
 .rel{
     position: relative;
