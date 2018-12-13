@@ -4,8 +4,11 @@
 }
 body{
     background-image: url(../src/paper.svg);
-    background-size: auto 100%;
-    /* background-position-y: 3rem; */
+    /* background-size: auto 100%; */
+    /* background-color: rgba(220, 256, 220, 1); */
+    background-position: 0 0;
+    background-position-y: 3rem;
+    /* background-color: green; */
 }
 .menuexpanded a{
     color: white;
@@ -16,23 +19,55 @@ body{
     color: white;
     
 }
-/* .row .col{
-    padding: 1rem;
-} */
+.a{
+    border: 1px solid darkgreen;
+    height: 45vw;
+    z-index: 1;
+}
 .i{
-    padding-left: 5px;
-    padding-right: 5px;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    height: 45vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 95%;
+    margin-bottom: 10%;
+    box-shadow: 5px 5px 10px gray;
+    background-color: rgba(0, 100, 0, 0.5)
+    /* width: 100%;
+    margin-left: 2%;
+    margin-right: 2%; */
+    /* border: 1px solid darkgreen; */
+    /* border-radius: 10px;
+    background-color: green;
+    height: 55vw;
+    width: 30vw;
+    padding: 5%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 10px gray;
+    margin-bottom: 3vw; */
 }
 .i a{
     text-decoration: none;
-    color: black;
+    color: black;  
+}
+.i h5{
+    font-size: 4.5vw;
+    text-align: center;
+    word-wrap: break-word;
+}
+.i .pic{
+    width: 90%;
 }
 .menuexpanded{
     position: fixed;
     height: 100%;
     background-color: darkgreen;
-    background-image: url(../src/paper.svg);
-    background-size: auto 100%;
+    background-image: url(../src/tarja.svg);
+    background-size: 100% auto;
+
     z-index: 1;
     margin-top: 49px; 
     background-position: 0 -50px;
@@ -43,9 +78,9 @@ body{
 .menu{
     position: fixed;
     width: 100%;
-    background-color: darkgreen;
-    background-image: url(../src/paper.svg);
-    background-position: 0 0;
+    background-color: green;
+    /* background-image: url(../src/paper.svg); */
+    /* background-position: 0 0; */
     z-index: 1;
     height: 50px;
 }
@@ -67,4 +102,18 @@ hr{
 }
 .w100{
     width: 100%;
+}
+.esp{
+    width: 100%; 
+    height: auto;
+    padding-top: 4rem; 
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+p{
+    /* text-shadow: 5px 5px 10px white; */
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
 }
