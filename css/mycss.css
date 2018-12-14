@@ -27,7 +27,7 @@ body{
 .i{
     border: 1px solid darkgreen;
     border-radius: 20px;
-    height: 45vw;
+    height: 34vw;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vw;
@@ -54,12 +54,12 @@ body{
     color: black;  
 }
 .i h5{
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     text-align: center;
     word-wrap: break-word;
 }
 .i .pic{
-    width: 90%;
+    width: 80%;
 }
 .menuexpanded{
     position: fixed;
@@ -92,6 +92,8 @@ hr{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;    
     display: block;
 }
 .rel{
