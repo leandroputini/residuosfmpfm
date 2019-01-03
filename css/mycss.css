@@ -9,6 +9,8 @@ body{
     background-position: 0 0;
     background-position-y: 3rem;
     /* background-color: green; */
+    background-size: auto 100%;
+    word-wrap: break-word;
 }
 .menuexpanded a{
     color: white;
@@ -126,7 +128,7 @@ hr{
     padding-left: 5%; 
     padding-right: 5%;
 }
-p{
+p:not(.ignoreCSS){
     /* text-shadow: 5px 5px 10px white; */
     border: 1px solid darkgreen;
     border-radius: 10px;
